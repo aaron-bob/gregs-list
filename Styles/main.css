@@ -35,7 +35,7 @@ h1, .topnav {
 }
 
 .topnav ul {
-	margin-top: 15px;
+	margin-top: 13px;
 }
 
 .topnav ul li {
@@ -55,9 +55,9 @@ section {
 
 input {
 	font-size: 18px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	border: 1px solid #ddd;
 	width: 500px;
 	padding: 5px 10px;
@@ -66,9 +66,9 @@ input {
 img {
 	height: 30px;
 	border: 1px solid #ddd;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	vertical-align: bottom;
 }
 
@@ -84,7 +84,7 @@ section nav ul {
 
 section nav ul li {
 	font-size: 16px;
-	margin: 60px 0 40px 0;
+	margin: 50px 0 40px 0;
 	border: 1px solid #ddd;
 	padding: 10px 15px;
 	text-decoration: none;
@@ -96,12 +96,12 @@ section nav ul li a {
 }
 
 section nav ul li:first-child {
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 section nav ul li:first-child::before {
@@ -109,12 +109,12 @@ section nav ul li:first-child::before {
 }
 
 section nav ul li:last-child {
-	-webkit-border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 
 section nav ul li:nth-child(2) {
@@ -127,9 +127,17 @@ section nav ul li:last-child::after {
 
 h2, h3 {
 	margin: 10px 0;
+	font-size: 18px;
+	padding-right: 10px;
 }
 
+h2 {
+	font-weight: 600;
+	color: blue;
+}
 
-
+h3 {
+	color: #888;
+}
 
 
