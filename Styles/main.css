@@ -1,3 +1,54 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
 ul {
 	list-style: none;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+}
+
+header {
+	background-color: #ddd;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	position: relative;
+	height: 60px;
+}
+
+header h1 {
+	position: absolute;
+	left: 20px;
+}
+
+.topnav {
+	margin: 0 20px;
+}
+
+h1, .topnav {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.topnav ul {
+	margin-top: 15px;
+}
+
+.topnav ul li {
+	display: inline-block;
+	margin-left: 24px;
+}
+
+.topnav ul li a {
+	color: purple;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+section {
+	margin-left: 120px;
 }
